@@ -1,6 +1,9 @@
-function divisao(a,b){
-    return a/b
-}
+const op = require('./operadores.js');
+const rl = require('readline-sync');
 
-let resultado = divisao(10, 2);
-console.log(resultado);
+let valorUm = rl.questionFloat(`Insira o primeiro valor`);
+let valorDois = rl.questionFloat(`Insira o proximo valor`);
+
+do {
+    
+} while (true);
