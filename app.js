@@ -12,19 +12,27 @@ do {
     switch (change) {
         case "+":
             valorNext = rl.questionFloat(`Insira o proximo valor`);
+            result += valorUm;
             result = Operadores.soma(result, valorNext);
+            valorUm = 0;
             break;
         case "-":
             valorNext = rl.questionFloat(`Insira o proximo valor`);
+            result += valorUm;
             result = Operadores.subtracao(result, valorNext);
+            valorUm = 0;
             break;
         case "*":
             valorNext = rl.questionFloat(`Insira o proximo valor`);
+            result += valorUm;
             result = Operadores.multiplicacao(result, valorNext);
+            valorUm = 0;
             break;
         case "/":
             valorNext = rl.questionFloat(`Insira o proximo valor`);
+            result += valorUm;
             result = Operadores.divisao(result, valorNext);
+            valorUm = 0;
             break;
         default:
             console.log(`Esse não é um operador valor`)
