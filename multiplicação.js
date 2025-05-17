@@ -1,7 +1,7 @@
 const readline = require('readline-sync');
 
-let numUm = readline.questionfloat("Digite o primeiro numero: ");
-let numDois = readline.questionfloat("Digite o segundo numero: ");
+let numUm = readline.questionFloat("Digite o primeiro numero: ");
+let numDois = readline.questionFloat("Digite o segundo numero: ");
 
 function multiplicação (numUm, numDois) {
     return numUm * numDois;
