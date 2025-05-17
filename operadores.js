@@ -1,20 +1,20 @@
-class operadores{
+class Operadores{
 
-    divisao(a,b){
+    static divisao(a,b){
         return a/b;
     }
 
-    multiplicação (numUm, numDois) {
+    static multiplicacao (numUm, numDois) {
         return numUm * numDois;
     }
 
-    soma(a, b) {
+    static soma(a, b) {
         return a + b;
     }
 
-    subtracao(a, b){
+    static subtracao(a, b){
         return a - b;
     }
 }
 
-module.exports = { operadores };
+module.exports = { Operadores };
